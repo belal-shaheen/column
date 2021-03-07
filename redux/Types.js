@@ -1,0 +1,3 @@
+export const ADD_CONTACTS = 'ADD_CONTACTS';
+export const SET_SELECTED_CONTACT = 'SET_SELECTED_CONTACT';
+export const SET_LOADING = 'SET_LOADING';
