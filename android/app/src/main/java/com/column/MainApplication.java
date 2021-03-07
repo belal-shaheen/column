@@ -29,7 +29,7 @@ public class MainApplication extends Application implements ReactApplication {
       // example: packages.add(new MyReactNativePackage());
       return packages;
     }
-
+    //
     @Override
     protected String getJSMainModuleName() {
       return "index";
