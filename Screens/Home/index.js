@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import {View} from 'react-native';
 import {connect} from 'react-redux';
-import {getContacts, setLoading} from '../../redux/Actions';
+import {setLoading} from '../../redux/Actions';
+import {getContacts} from '../../redux/ActionCreator';
 import {Text, Button} from 'react-native-elements';
 
 class Home extends Component {
